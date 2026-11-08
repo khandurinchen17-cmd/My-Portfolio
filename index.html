@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Rinchen Khandu — Portfolio</title>
+<meta name="description" content="Rinchen Khaandu — network & software engineering student. Projects, skills, and contact." />
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      <a href="#about" data-nav>About</a>
+      <a href="#skills" data-nav>Skills</a>
+      <a href="#projects" data-nav>Projects</a>
+      <a href="#education" data-nav>Education</a>
+      <a href="#contact" data-nav>Contact</a>
+    </nav>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<main id="main">
+  <!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <canvas id="node-canvas" aria-hidden="true"></canvas>
+  <div class="hero-inner">
+    <p class="prompt"><span class="prompt-typed" id="typed"></span><span class="cursor" aria-hidden="true">▌</span></p>
+    <p class="prompt">HELLO! I AM</p>
+    <div class="hero-name-row">
+      <div class="hero-copy">
+        <h1 class="hero-name">RINCHEN<br>KHANDU</h1>
+        <p class="hero-role">COMPUTER SYSTEM &amp; NETWORK STUDENT </p>
+      </div>
+
+      <div class="hero-photo">
+        <img src="photo.jpeg" alt="Portrait of Rinchen Khaandu"
+             width="480" height="480" loading="eager" />
+      </div>
+    </div>
+
+    <p class="hero-tag">
+      I am from Wangduephodrang,Bhutan and currently pursuing a Diploma in Computer System & Network at Jigme Namgyel Engineering College (JNEC).
+     </p>
+  </div>
+</section>
+  <!-- ============ ABOUT ============ -->
+<section class="section surface-light" id="about">
+  <div class="section-inner">
+    <p class="marker">&gt; about</p>
+    <h2 class="section-title">A little about me</h2>
+
+    <div class="about-wrap">
+      <div class="about-copy">
+        <p class="about-text">
+          I am a motivated student with a strong interest in technology, computers, networking, and cybersecurity.
+          I enjoy hands-on learning, solving problems, and exploring new technologies.
+        </p>
+        <p class="about-text">
+          I am also interested in understanding how computer networks communicate and how network infrastructure connects people and systems.
+          Outside coursework, I enjoy participating in cybersecurity challenges (CTFs), experimenting with Linux, and learning how real-world security incidents are investigated.
+        </p>
+        <p class="about-text">
+          My goal is to become a skilled IT professional with knowledge of programming, software development, networking, and cybersecurity,
+          where I can create useful solutions, solve technical problems, and contribute positively to society.
+        </p>
+      </div>
+
+      <aside class="term" aria-label="Profile summary">
+        <div class="term-bar"><i></i><i></i><i></i><span>rinchen@jnec: ~</span></div>
+        <div class="term-body">
+          <p class="tl" style="--i:0"><b>$</b>whoami</p>
+          <p class="tl out" style="--i:1">Rinchen Khandu</p>
+          <p class="tl" style="--i:2"><b>$</b>cat location</p>
+          <p class="tl out" style="--i:3">Wangduephodrang, Bhutan</p>
+          <p class="tl" style="--i:4"><b>$</b>cat studying</p>
+          <p class="tl out" style="--i:5">Diploma in Computer System &amp; Network, JNEC</p>
+          <p class="tl" style="--i:6"><b>$</b><span class="blink">▌</span></p>
+        </div>
+      </aside>
+    </div>
+
+    <ul class="interests">
+      <li>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="5" cy="19" r="2"/><circle cx="19" cy="19" r="2"/><path d="M12 7v5M12 12l-6 5M12 12l6 5"/></svg>
+        <h3>Networking</h3><p>How networks communicate and connect systems</p>
+      </li>
+      <li>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 5-3.5 8-8 9-4.5-1-8-4-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>
+        <h3>Cybersecurity</h3><p>CTF challenges and how incidents are investigated</p>
+      </li>
+      <li>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 10l3 2-3 2M13 15h4"/></svg>
+        <h3>Linux</h3><p>Hands-on experiments and learning by doing</p>
+      </li>
+      <li>
+        <svg class="ico" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 8l-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/></svg>
+        <h3>Programming</h3><p>Software that solves real technical problems</p>
+      </li>
+    </ul>
+
+    <div class="about-facts">
+      <div class="fact"><span class="fact-value">3</span><span class="fact-label">Projects in this portfolio</span></div>
+      <div class="fact"><span class="fact-value">4</span><span class="fact-label">Skill areas</span></div>
+      <div class="fact"><span class="fact-value">JNEC</span><span class="fact-label">Where I study</span></div>
+    </div>
+  </div>
+</section>
+  <!-- ============ SKILLS ============ -->
+  <section class="section surface-dark" id="skills">
+    <div class="section-inner">
+      <p class="marker">&gt; skills</p>
+      <h2 class="section-title">What I work with</h2>
+
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Networking &amp; infrastructure</h3>
+          <ul class="chip-list">
+            <li class="chip">Cisco IOS</li>
+            <li class="chip">BGP / eBGP</li>
+            <li class="chip">OSPF</li>
+            <li class="chip">VLANs &amp; trunking</li>
+            <li class="chip">ACLs</li>
+            <li class="chip">Packet Tracer</li>
+            <li class="chip">DNS / DHCP</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <ul class="chip-list">
+            <li class="chip">Python</li>
+            <li class="chip">JavaScript</li>
+            <li class="chip">HTML &amp; CSS</li>
+            <li class="chip">Bash</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Security</h3>
+          <ul class="chip-list">
+            <li class="chip">Wireshark</li>
+            <li class="chip">ACL design</li>
+            <li class="chip">Kali Linux</li>
+
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools &amp; platforms</h3>
+          <ul class="chip-list">
+            <li class="chip">Git &amp; GitHub</li>
+            <li class="chip">Linux</li>
+            <li class="chip">VS Code</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section class="section surface-light" id="projects">
+    <div class="section-inner">
+      <p class="marker">&gt; projects</p>
+      <h2 class="section-title">Selected work</h2>
+
+      <div class="filter-bar" role="tablist" aria-label="Filter projects">
+        <button class="filter-btn is-active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="network" role="tab" aria-selected="false">Networking</button>
+        <button class="filter-btn" data-filter="software" role="tab" aria-selected="false">Software</button>
+      </div>
+
+      <div class="project-grid" id="project-grid">
+
+        <article class="project-card" data-tags="network">
+          <div class="project-head">
+            <h3>National Health Network Design (BGP & Dual-ISP + ACL)</h3>
+            <span class="project-kind">Networking</span>
+          </div>
+          <p>
+            <!-- TODO: adjust description to match your actual submitted assignment -->
+            Designed and implemented a national hospital network connecting JDWNRH, Mongar, and Gelephu through two independent ISPs. 
+            Used BGP across five autonomous systems for full route exchange, configured local-preference and prefix-list policies so the hospital network favored one ISP while avoiding transit, and applied an extended ACL to restrict the patient-records server to a single authorized hospital.
+          </p>
+          <ul class="project-tech">
+            <li>Cisco IOS</li><li>BGP</li><li>Multi-AS Routing</li><li>ACL</li><li>Packet Tracer</li>
+          </ul>
+        </article>
+
+        <article class="project-card" data-tags="software">
+          <div class="project-head">
+            <h3>Smart Hall Booking System</h3>
+            <span class="project-kind">Software</span>
+          </div>
+          <p>
+            <!-- TODO: adjust description -->
+            Developed a college-based hall booking management system that simplifies reservation requests, provides real-time hall availability, manages booking approvals, and prevents scheduling conflicts.
+            The system includes role-based access for students, faculty members, and administrators, along with notifications and hall usage reports.
+          </p>
+          <ul class="project-tech">
+                <li>Frontend Development</li><li>Backend Development</li><li>Database Management</li><li>UI/UX Design</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section class="section surface-dark" id="education">
+    <div class="section-inner">
+      <p class="marker">&gt; education</p>
+      <h2 class="section-title">Education</h2>
+
+      <ol class="timeline">
+        <li class="timeline-item">
+          <!-- TODO: confirm institution, programme and years -->
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">
+            <h3>Diploma in Computer System & Network </h3>
+            <p class="timeline-meta">Jigme Namgyel Engineering College (JNEC) &middot; 2026 — Present</p>
+            <p>Coursework in Networking, Programming &amp; System Administration.</p>
+          </div>
+        </li>
+        <li class="timeline-item">
+          <!-- TODO: add or remove certifications as applicable -->
+          <div class="timeline-dot"></div>
+          <div class="timeline-body">  <article class="project-card" data-tags="software network">
+          <div class="project-head">
+            <h3>Higher Secondary Education</h3>
+            <p class="timeline-meta">2024</p>
+            <p>I completed my Class 12 education at Desi High School, specializing in the Commerce stream.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section class="section surface-light" id="contact">
+    <div class="section-inner">
+      <p class="marker">&gt; contact</p>
+      <h2 class="section-title">Let's talk</h2>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <!-- TODO: replace with your real email / links -->
+          <a class="contact-row" href="mailto:khandurinchen17@gmail.com">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">khandurinchen17@gmail.com</span>
+          </a>
+          <a class="contact-row" href="https://github.com/khandurinchen17-cmd" target="_blank" rel="noopener">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/khandurinchen17-cmd</span>
+          </a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> Rinchen Khandu. Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/robet.js"></script>
+</body>
+</html>
